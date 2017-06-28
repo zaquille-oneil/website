@@ -1,6 +1,7 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background: #2C1D1E;
+  background: #6D7853;
+  transition: 0.5s all;
   margin: 0;
 }
 
@@ -9,7 +10,12 @@ body {
 }
 
 a {
-  color: hotpink;
+  color: #DAF09D;
+}
+
+/*background switch*/
+.changeColor {
+  background: #2C1D1E;
 }
 
 /*NAVBAR*/
@@ -292,5 +298,4 @@ h4 {
   color: grey;
   font-size: 0.75em;
 }
-
 
