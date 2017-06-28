@@ -14,7 +14,7 @@ a {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #4F1612;
+  background-color: #F7DC6F;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -28,7 +28,7 @@ a {
 
 .navbar a {
   font-weight: 200;
-  color: #c6b6af;
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -233,6 +233,7 @@ h4 {
   list-style: none;
   cursor: default;
   font-size: 1.2em;
+  border-radius: 5px 20px 5px;
 }
 
 /*CONTACT*/
