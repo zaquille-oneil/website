@@ -1,7 +1,17 @@
 $(document).ready(function(){
+    //transition color from top after scrolling
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 30) {
+      console.log('hello')
+      $('body').addClass('changeColor')
+    }
+    if ($(this).scrollTop() < 30) {
+      $('body').removeClass('changeColor')
+    }
+  });
+
       // Add smooth scrolling to all links
   $("a").on('click', function(event) {
-
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
@@ -21,6 +31,11 @@ $(document).ready(function(){
       });
     } // End if
   });
+
+  $('body').bind('beforeunload',function(){
+    location.hash = ""
+  });
+
 });
 
 (function() {
