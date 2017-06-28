@@ -1,12 +1,11 @@
 $(document).ready(function(){
     //transition color from top after scrolling
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 30) {
-      console.log('hello')
-      $('body').addClass('changeColor')
-    }
-    if ($(this).scrollTop() < 30) {
+    if ($(this).scrollTop() > 60) {
       $('body').removeClass('changeColor')
+    }
+    if ($(this).scrollTop() < 60) {
+      $('body').addClass('changeColor')
     }
   });
 
@@ -33,15 +32,7 @@ $(document).ready(function(){
   });
 
   $('body').bind('beforeunload',function(){
-    location.hash = ""
+    $('body').removeClass('changeColor')
   });
 
 });
-
-(function() {
-    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
-    link.type = 'image/x-icon';
-    link.rel = 'shortcut icon';
-    link.href = './favicon.ico';
-    document.getElementsByTagName('head')[0].appendChild(link);
-})();
