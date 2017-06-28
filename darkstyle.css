@@ -1,6 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background: #451310;
+  background: #2C1D1E;
   margin: 0;
 }
 
@@ -14,7 +14,7 @@ a {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #F7DC6F;
+  background-color: #6D7853;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -43,7 +43,7 @@ a {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #F7DC6F; /*background is going to be transparent with parallax*/
+  background: #6D7853; /*background is going to be transparent with parallax*/
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
@@ -113,7 +113,7 @@ a {
 }
 
 .white {
-  background: #3d110e;
+  background: #281B1C;
 }
 
 .side-content {
@@ -145,21 +145,21 @@ a {
 h2 {
   font-weight: 600;
   font-size: 2rem;
-  color: #7B241C;
+  color: #DDFCAD;
   text-transform: uppercase;
   text-align: center;
 }
 
 .content-body {
   line-height: 1.5;
-  color: #c6b6af;
+  color: white;
 }
 
 /*EDUCATION*/
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #3d110e;
+  background-color: #382B2C;
   border: 1px solid rgba(0,0,0,.2);
   border-radius: .25rem;
   margin-bottom: 30px;
@@ -167,7 +167,7 @@ h2 {
 
 .card-header {
   padding: .75rem 1.25rem;
-  background-color: #3d110e;
+  background-color: #382B2C;
   border-bottom: 1px solid rgba(0,0,0,.2);
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
@@ -181,7 +181,7 @@ h2 {
 h4 {
   margin: 0;
   font-weight: 500;
-  color: #ed8f61;
+  color: #DDFCAD;
 }
 
 .job-title {
@@ -192,9 +192,9 @@ h4 {
 .project-card {
   display: flex;
   flex-direction: row;
-  background-color: #3d110e;
+  background-color: #34352C;
   border: 1px solid rgba(0,0,0,.2);
-  border-radius: 5px;
+  border-radius: 60px 5px 5px 60px;
   margin-bottom: 30px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.15), 0 3px 6px rgba(0,0,0,0.08);
 }
@@ -205,8 +205,8 @@ h4 {
 
 .project-image img {
   display: block;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
 }
 
 .project-content {
@@ -228,8 +228,8 @@ h4 {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: #c6b6af;
-  background: #D35400;
+  color: black;
+  background: #C5E866;
   list-style: none;
   cursor: default;
   font-size: 1.2em;
@@ -238,7 +238,7 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: #4F1612;
+  background: #6D7853;
   text-align: center;
 }
 
@@ -254,8 +254,8 @@ h4 {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #AEB6BF;
-  color: #fff;
+  background: #E5F4E3;
+  color: #C8E087;
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
 }
@@ -268,7 +268,7 @@ h4 {
 .contact button {
   display: block;
   width: 100%;
-  background: #fff;
+  background: #C8E087;
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
