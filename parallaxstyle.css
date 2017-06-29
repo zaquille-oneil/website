@@ -1,0 +1,373 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #2C1D1E;
+  transition: 0.3s all;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box
+}
+
+a {
+  color: #DAF09D;
+}
+
+/*background switch*/
+.changeColor {
+  background: #6D7853;
+}
+
+/*NAVBAR*/
+.navbar {
+  z-index: 1;
+  background-color: #6D7853;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*.navbar-inner {
+    background:transparent;
+}*/
+
+.navbar a {
+  font-weight: 200;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+  height: 100vh; /*height to 100% of view height*/
+  background: transparent; /*background is going to be transparent with parallax*/
+  margin-bottom: 0; /*no bottom margin*/
+
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron-text {
+  /*TAGLINE UNDER NAME*/
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.jumbotron-text h1 {
+  /*YOUR NAME*/
+  text-transform: lowercase;
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.jumbotron-text p {
+  margin: 10px;
+}
+
+/*SOCIAL LINKS*/
+.ul-social {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-social-links {
+  display: inline-block;
+  list-style: none;
+}
+
+.social {
+  z-index: 2;
+  font-size: 2em;
+  color: white;
+  padding: 20px;
+}
+
+/*ARROW LINK*/
+#down-arrow {
+  /*position: absolute;
+  width: 100%;*/
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#down-arrow a {
+  color: white;
+}
+
+/*CONTENT*/
+.container {
+  position: absolute;
+  /*sets up flexbox*/
+  display: flex;
+  flex-direction: column;
+  top: 700px; /*this value needs to be same as parallax layer height*/
+  background: #2C1D1E;
+}
+
+.row {
+  display: flex;
+}
+
+.white {
+  background: #281B1C;
+}
+
+.side-content {
+  flex: 0 0 16.6%;
+}
+
+.main-content {
+  flex: 0 0 66.6%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.side-content-sm {
+  flex: 0 0 10%;
+}
+
+.main-content-lg {
+  flex: 0 0 80%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #DDFCAD;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content-body {
+  line-height: 1.5;
+  color: white;
+}
+
+/*EDUCATION*/
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #382B2C;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .25rem;
+  margin-bottom: 30px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.08);
+}
+
+.card-header {
+  padding: .75rem 1.25rem;
+  background-color: #382B2C;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.card-content {
+  padding: .25rem 1.25rem;
+  flex: 1 1 auto;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 500;
+  color: #DDFCAD;
+}
+
+.job-title {
+  float: right;
+}
+
+/*PROJECTS*/
+.project-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #34352C;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 60px 5px 5px 60px;
+  margin-bottom: 30px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.08);
+}
+
+.project-image {
+  flex: 1 0 auto;
+}
+
+.project-image img {
+  display: block;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.project-content {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*SKILLS*/
+.ul-skills {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-skills {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: black;
+  background: #C5E866;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+  border-radius: 5px 20px 5px;
+}
+
+/*CONTACT*/
+.blue {
+  background: #6D7853;
+  text-align: center;
+}
+
+.contact {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  background: #E5F4E3;
+  color: #C8E087;
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
+
+.contact textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact button {
+  display: block;
+  width: 100%;
+  background: #C8E087;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: none;
+  color: rgba(0,0,0,0.75);
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
+
+.white-text {
+  color: white;
+}
+
+.indent { 
+  padding-left: 1.8em; 
+  margin: 0;
+}
+
+.footer {
+  color: grey;
+  font-size: 0.75em;
+}
+
+
+
+.parallax-container {
+  position: fixed;
+  overflow: visible;
+  width: 100%;
+  height: 850px;
+}
+.parallax-layer {
+  width: 100%;
+  height: 700px; 
+  /*giving this more height allows for shifting down instead of up.*/
+  /*the difference between this height and the height of your images is the amount of shift*/
+  /*this should be the height of your layers... otherwise, adjust 'top' value of the layers*/
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  background-size: 1280px 500px;
+}
+  /*.layer-0 {
+    top: 0;
+    z-index: 5;
+    background: #dbf0ff url('http://i.imgur.com/4hwp8up.png') no-repeat top 40px center;
+    background-size: 120px 138.5px;
+  }
+  .layer-1 {
+    top: -100px;
+    z-index: 5;
+    background-image: url('./cavelayer3.png');
+  }*/
+  .layer-2 {
+    top: 0px;
+    z-index: 10;
+    background-size: 100% 665px;
+    background-image: url('./cavelayer3.png');
+  }
+  .layer-3 {
+    top: 0px;
+    z-index: 11;
+    background-size: 100% 655px;
+    background-image: url('./cavelayer2.png');
+  }
+  /*.layer-4 {
+    top: 65px;
+    z-index: 20;
+    background-image: url('http://i.imgur.com/JbSR9JY.png');
+  }*/
+  .layer-5 {
+    top: 0px;
+    z-index: 12;
+    background-image: url('./cavelayer1.png');
+  }
+
+
+  
+.content {
+  position: absolute;
+  top: 600px; /*this value needs to be same as parallax layer height*/
+  background: #2C1D1E;
+  width: 100%;
+  min-height: 1500px;
+}
+  .content h1 {
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+  }
