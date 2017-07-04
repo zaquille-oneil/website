@@ -161,7 +161,7 @@ h2 {
   flex-direction: column;
   background-color: #5B5C53;
   border: 1px solid rgba(0,0,0,.2);
-  border-radius: .25rem;
+  border-radius: 25px;
   margin-bottom: 30px;
   box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.08);
 }
@@ -169,9 +169,8 @@ h2 {
 .card-header {
   padding: .75rem 1.25rem;
   background-color: #5B5C53;
+  border-radius: 25px 25px 0px 0px;
   border-bottom: 1px solid rgba(0,0,0,.2);
-  border-top-left-radius: .25rem;
-  border-top-right-radius: .25rem;
 }
 
 .card-content {
@@ -195,7 +194,7 @@ h4 {
   flex-direction: row;
   background-color: #5B5C53;
   border: 1px solid rgba(0,0,0,.2);
-  border-radius: 60px 5px 5px 60px;
+  border-radius: 25px 25px 25px 25px;
   margin-bottom: 30px;
   box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.08);
 }
@@ -206,8 +205,8 @@ h4 {
 
 .project-image img {
   display: block;
-  border-top-left-radius: 60px;
-  border-bottom-left-radius: 60px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
 .project-content {
