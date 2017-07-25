@@ -161,7 +161,7 @@ h2 {
   flex-direction: column;
   background-color: #F9F481;
   border: 1px solid rgba(0,0,0,.2);
-  border-radius: 25px;
+  border-radius: 10px;
   margin-bottom: 30px;
   box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.08);
 }
@@ -194,7 +194,7 @@ h4 {
   flex-direction: row;
   background-color: #F9F481;
   border: 1px solid rgba(0,0,0,.2);
-  border-radius: 25px 25px 25px 25px;
+  border-radius: 10px;
   margin-bottom: 30px;
   box-shadow: 0 12px 24px rgba(0,0,0,0.15), 0 12px 24px rgba(0,0,0,0.08);
 }
