@@ -20,7 +20,7 @@ a {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #E0DFD5;
+  background-color: #376996;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -49,7 +49,7 @@ a {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #E0DFD5; /*background is going to be transparent with parallax*/
+  background: #376996; /*background is going to be transparent with parallax*/
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
@@ -60,7 +60,7 @@ a {
   /*TAGLINE UNDER NAME*/
   font-weight: 400;
   font-size: 2em;
-  color: #717568;
+  color: white;
   text-align: center;
   padding-top: 150px;
 }
