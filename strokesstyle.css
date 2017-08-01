@@ -256,7 +256,7 @@ h4 {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #E5F4E3;
+  background: white;
   color: #C8E087;
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
@@ -270,7 +270,7 @@ h4 {
 .contact button {
   display: block;
   width: 100%;
-  background: #C8E087;
+  background: white;
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
